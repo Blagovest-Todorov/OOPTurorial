@@ -15,7 +15,7 @@ namespace _02.SimpleClassDefinition
     {
         //class2 into class-> becasue we waht the class 2 to be accessible only into class
         private string name;  // field
-        private string age; //another field
+        private int age; //another field
 
 
         public Person()  //empty Constructor
