@@ -17,7 +17,7 @@ namespace _02.SimpleClassDefinition
             this.name = name;
         }
 
-        public string Name
+        public string Name   //this is the property 
         {
             get
             {
@@ -36,19 +36,19 @@ namespace _02.SimpleClassDefinition
         {
             Console.WriteLine("{0} is walking !", this.Name);
         }
-             
+
     }
-        
-    class Program
+
+    class LearningOOP
     {
-         static void Main(string[] args)
-         {
-            Person p = new Person("Blagy");
-            Console.WriteLine(p.Name);
-            p.Walk();
-        
-         }
+        static void Main(string[] args)
+        {
+            Person p = new Person("Blagy");  //we create here the Instaance of teh class , the currnt Object "p".
+            Console.WriteLine(p.Name);  //We access teh property  and print it 
+            p.Walk();   //we access the Method and perform call the method to do sth.
+
+        }
     }
-    
+
 }
 
